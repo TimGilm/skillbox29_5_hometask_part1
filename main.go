@@ -16,8 +16,6 @@ import (
 	"sync"
 )
 
-var intChan = make(chan int)
-
 func main() {
 	var wg sync.WaitGroup
 
